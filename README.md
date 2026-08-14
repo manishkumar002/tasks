@@ -26,17 +26,7 @@ JWT_EXPIRES=7d
 CLIENT_URL=http://localhost:5173
 ```
 
-### 4. Start MongoDB
-
-Make sure MongoDB is running locally:
-
-```bash
-sudo systemctl start mongod
-# or
-mongod
-```
-
-### 5. Run the application
+### 4. Run the application
 **Development (both server & client):**
 ```bash
 npm run dev:all
@@ -50,6 +40,6 @@ npm run dev
 npm run dev
 ```
 
-### 6. Open in browser
+### 5. Open in browser
 - Frontend: [http://localhost:5173](http://localhost:5173)
 - Backend API: [http://localhost:8080](http://localhost:8080)
